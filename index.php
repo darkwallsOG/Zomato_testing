@@ -33,7 +33,7 @@
 			</div>
 
 			<?php 
-				$conn = mysqli_connect("localhost","root","","amazon");
+				$conn = mysqli_connect("localhost","root","","zomato");
 
 				$query = "SELECT * FROM products WHERE category LIKE 'Non Veg' LIMIT 4";
 
@@ -64,7 +64,7 @@
 			</div>
 
 			<?php 
-				$conn = mysqli_connect("localhost","root","","amazon");
+				$conn = mysqli_connect("localhost","root","","zomato");
 
 				$query = "SELECT * FROM products WHERE category LIKE 'Veg' LIMIT 4";
 
@@ -91,7 +91,7 @@
 			</div>
 
 			<?php 
-				$conn = mysqli_connect("localhost","root","","amazon");
+				$conn = mysqli_connect("localhost","root","","zomato");
 
 				$query = "SELECT * FROM products WHERE category LIKE 'Desserts' LIMIT 4";
 
